@@ -76,9 +76,9 @@ st.markdown("""
 }
 
 /* KPI */
-.kpi-label { font-size: 13px; color: var(--muted); margin-bottom: 10px; }
-.kpi-value { font-size: 30px; font-weight: 800; letter-spacing: -.04em; margin-bottom: 8px; }
-.kpi-foot  { font-size: 12px; color: var(--muted); }
+.kpi-label { font-size: 13px; color: #6b7280; margin-bottom: 10px; }
+.kpi-value { font-size: 30px; font-weight: 800; letter-spacing: -.04em; margin-bottom: 8px; color: #111827; }
+.kpi-foot  { font-size: 12px; color: #6b7280; }
 .kpi-delta-neg { font-size: 12px; color: var(--danger); }
 .kpi-delta-pos { font-size: 12px; color: var(--success); }
 
@@ -96,9 +96,9 @@ st.markdown("""
 /* 테이블 */
 .table-wrap { overflow: auto; }
 table { width: 100%; border-collapse: collapse; font-size: 13px; }
-th, td { padding: 12px 10px; border-bottom: 1px solid var(--border);
-         text-align: left; vertical-align: middle; white-space: nowrap; }
-th { color: var(--muted); font-weight: 600; font-size: 12px;
+th, td { padding: 12px 10px; border-bottom: 1px solid #e5e7eb;
+         text-align: left; vertical-align: middle; white-space: nowrap; color: #111827; }
+th { color: #6b7280; font-weight: 600; font-size: 12px;
      background: #fafafa; position: sticky; top: 0; }
 tr:last-child td { border-bottom: none; }
 
